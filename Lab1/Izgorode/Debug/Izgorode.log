@@ -1,0 +1,15 @@
+﻿  Izgorode.cpp
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(48,49): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(55,60): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(67,49): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(74,49): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(97,49): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(102,60): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(120,49): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(132,49): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(137,60): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(182,68): warning C4018: >: несоответствие типов со знаком и без знака
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(200,3): warning C4286: std::overflow_error: перехвачено базовым классом ("std::exception &") в строке 192
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(204,3): warning C4286: std::runtime_error: перехвачено базовым классом ("std::exception &") в строке 192
+C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Izgorode.cpp(161,13): warning C4101: n: неиспользованная локальная переменная
+  Izgorode.vcxproj -> C:\Users\DELL\source\repos\KIOKI\Lab1\Izgorode\Debug\Izgorode.exe

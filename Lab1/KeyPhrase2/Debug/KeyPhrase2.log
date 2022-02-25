@@ -1,0 +1,6 @@
+﻿  KeyPhrase2.cpp
+C:\Users\DELL\source\repos\KIOKI\Lab1\KeyPhrase2\KeyPhrase2.cpp(79,28): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\DELL\source\repos\KIOKI\Lab1\KeyPhrase2\KeyPhrase2.cpp(113,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\DELL\source\repos\KIOKI\Lab1\KeyPhrase2\KeyPhrase2.cpp(66,10): warning C4101: ch: неиспользованная локальная переменная
+C:\Users\DELL\source\repos\KIOKI\Lab1\KeyPhrase2\KeyPhrase2.cpp(57): warning C4715: indexOfLetter: значение возвращается не при всех путях выполнения
+  KeyPhrase2.vcxproj -> C:\Users\DELL\source\repos\KIOKI\Lab1\KeyPhrase2\Debug\KeyPhrase2.exe

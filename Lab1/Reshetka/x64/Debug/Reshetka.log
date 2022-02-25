@@ -1,0 +1,4 @@
+﻿  Reshetka.cpp
+C:\Users\DELL\source\repos\KIOKI\Lab1\Reshetka\Reshetka.cpp(234,24): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\DELL\source\repos\KIOKI\Lab1\Reshetka\Reshetka.cpp(147,7): warning C4101: ch: неиспользованная локальная переменная
+  Reshetka.vcxproj -> C:\Users\DELL\source\repos\KIOKI\Lab1\Reshetka\x64\Debug\Reshetka.exe

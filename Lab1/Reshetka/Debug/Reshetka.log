@@ -1,0 +1,3 @@
+﻿  Reshetka.cpp
+C:\Users\DELL\source\repos\Reshetka\Reshetka.cpp(129,7): warning C4101: ch: неиспользованная локальная переменная
+  Reshetka.vcxproj -> C:\Users\DELL\source\repos\Reshetka\Debug\Reshetka.exe

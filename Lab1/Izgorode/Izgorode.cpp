@@ -1,27 +1,4 @@
-﻿//// Izgorode.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-////
-//
-//#include <iostream>
-//#include <vector>
-//
-//int main()
-//{
-//	
-//	
-//
-//	
-//}
-//
-//// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-//// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
-//
-//// Советы по началу работы 
-////   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-////   2. В окне Team Explorer можно подключиться к системе управления версиями.
-////   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-////   4. В окне "Список ошибок" можно просматривать ошибки.
-////   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-////   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.
+﻿
 #include <iostream>
 #include <iomanip>
 #include <windows.h>
@@ -38,16 +15,16 @@ std::vector<char> encrypt(int key, char* cWord)
 {
     bool down = true;
     vector<char> C;
-    char** ptrarray = new char* [key]; // две строки в массиве
+    char** ptrarray = new char* [key]; 
     for (int count = 0; count < key; count++)
-        ptrarray[count] = new char[std::strlen(cWord)]; // и пять столбцов
+        ptrarray[count] = new char[std::strlen(cWord)];
 
 
-    // заполнение массива
+    
     for (int count_row = 0; count_row < key; count_row++)
         for (int count_column = 0; count_column < std::strlen(cWord); count_column++)
-            ptrarray[count_row][count_column] = '*'; //заполнение массива 
-    // вывод массива
+            ptrarray[count_row][count_column] = '*'; 
+   
     std::cout << "\n";
 
 
@@ -78,7 +55,7 @@ std::vector<char> encrypt(int key, char* cWord)
     for (vector<char>::iterator it = C.begin(); it != C.end(); ++it)
         cout << *it;
 
-    // удаление двумерного динамического массива
+    
     for (int count = 0; count < key; count++)
         delete[]ptrarray[count];
     return C;
@@ -87,16 +64,16 @@ string  decrypt(int key, vector<char> encrypt)
 {
     std::string str = "";
     bool down = true;
-    char** ptrarray = new char* [key-1]; // две строки в массиве
+    char** ptrarray = new char* [key-1]; 
     for (int count = 0; count < key; count++)
-        ptrarray[count] = new char[encrypt.size()]; // и пять столбцов
+        ptrarray[count] = new char[encrypt.size()]; 
 
 
-    // заполнение массива
+    
     for (int count_row = 0; count_row < key; count_row++)
         for (int count_column = 0; count_column < encrypt.size(); count_column++)
-            ptrarray[count_row][count_column] = '*'; //заполнение массива 
-    // вывод массива
+            ptrarray[count_row][count_column] = '*'; 
+   
     std::cout << "\n";
 
     for (int count_column = 0, count_row = 0; count_column < encrypt.size(); count_column++)
@@ -108,12 +85,7 @@ string  decrypt(int key, vector<char> encrypt)
         else count_row--;
 
     }
-    /*for (int count_row = 0; count_row < key; count_row++)
-    {
-        for (int count_column = 0; count_column < encrypt.size(); count_column++)
-            cout << setw(4) << setprecision(2) << ptrarray[count_row][count_column] << "   ";
-        cout << endl;
-    }*/
+  
     int n = 0;
     for (int count_row = 0; count_row < key; count_row++)
     {
